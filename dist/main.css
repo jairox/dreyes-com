@@ -1,0 +1,120 @@
+body {
+    font-family: 'Helvetica', sans-serif;
+}
+
+/******* LOGO ******/
+
+.ball {
+    background: #80d4ff;
+    width: 70px;
+    height: 70px;
+    text-align: center;
+    margin-bottom: 10px;
+    border-radius: 50%;
+    position: relative;
+    margin: 0 auto;
+}
+.tear {
+    -webkit-box-sizing: content-box;
+    -moz-box-sizing: content-box;
+    box-sizing: content-box;
+    width: 3em;
+    height: 3em;
+    border: none;
+    -webkit-border-radius: 80% 0 55% 50% / 55% 0 80% 50%;
+    border-radius: 80% 0 55% 50% / 55% 0 80% 50%;
+    font: normal 100%/normal Arial, Helvetica, sans-serif;
+    color: rgba(0,0,0,1);
+    -o-text-overflow: clip;
+    text-overflow: clip;
+    background: #ffffff;
+    -webkit-transform: rotateZ(-45deg)   ;
+    transform: rotateZ(-45deg)   ;
+}
+.ball h1 {
+    color: #fff;
+    position: absolute;
+    top: -3px;
+    left: 13px;
+    font-size: 50px;
+    margin: 0;
+    padding: 0;
+}
+h1,h5,h6 {
+    font-family: 'Jockey One', sans-serif;
+    color: #000000;
+}
+h5, .content h5 {
+    border-top: 1px solid #3f3f3f;
+    font-size: 14px;
+    text-align: center;
+    margin-top: -8px;
+}
+.content h5 {
+    margin-bottom: 3px;
+}
+h6, .content h6 {
+    font-size: 10px;
+    text-align: center;
+    text-transform: uppercase;
+    line-height: 5px;
+    letter-spacing: 0.75px;
+}
+a.logo {
+    display: inline-block;
+    border: 1px solid #333;
+    padding: 10px;
+}
+footer .ball h1 {
+    top: 4px;
+}
+
+
+/******* HEADER *******/
+header.columns {
+    margin-top: 10px;
+}
+a.hamburguer, a.close {
+    color: #000000;
+    font-size: 50px;
+}
+a.close {
+    display: none;
+}
+.menu-op {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+h3 {
+    text-align: center;
+    font-size: 25px;
+    margin: 10px 0;
+    font-weight: bold;
+}
+h4 {
+    font-size: 18px;
+    font-weight: bold;
+    text-align: center;
+    margin: 20px 0;
+}
+.intro {
+    text-align: center;
+    width: 70%;
+    margin: 0 auto;
+}
+article.container {
+    padding: 20px 0;
+    border-bottom: 1px solid #f9f9;
+}
+form.form {
+    padding: 20px 0;
+}
+
+hr {
+    border-bottom: 0.4px solid #f9f9;
+}
+
+.slick-slide > div {
+    padding: 0 10px;
+}
