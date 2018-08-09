@@ -62,17 +62,20 @@ h6, .content h6 {
 }
 a.logo {
     display: inline-block;
-    border: 1px solid #333;
     padding: 10px;
 }
 footer .ball h1 {
     top: 4px;
 }
 
+.navbar-burger {
+    height: auto;
+}
 
 /******* HEADER *******/
-header.columns {
+.container header.columns {
     margin-top: 10px;
+    margin-bottom: 10px;
 }
 a.hamburguer, a.close {
     color: #000000;
@@ -115,6 +118,6 @@ hr {
     border-bottom: 0.4px solid #f9f9;
 }
 
-.slick-slide > div {
-    padding: 0 10px;
+.slick-slide .items-gallery {
+    padding: 0 15px;
 }
